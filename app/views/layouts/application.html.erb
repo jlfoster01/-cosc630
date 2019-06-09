@@ -10,11 +10,16 @@
   </head>
 
   <body>
-    <%= link_to "Home", welcome_index_path %>
-    <%= link_to "About Us", welcome_about_path %>
-    <%= link_to "Ways to Help", welcome_help_path %>
-    <%= link_to "Adoption", welcome_adoption_path %>
-    <%= link_to "Contact", welcome_contact_path %>
-    <%= yield %>
+
+    <div class="container"> 
+      <ul class="nav nav-tabs">
+        <li><%= link_to "Home", welcome_index_path %></li>
+        <li><%= link_to "About Us", welcome_about_path %></li>
+        <li><%= link_to "Ways to Help", welcome_help_path %></li>
+        <li><%= link_to "Adoption", welcome_adoption_path %></li>
+        <li><%= link_to "Contact", welcome_contact_path %></li>
+      </ul> 
+      <%= yield %>
+    </div>
   </body>
 </html>
