@@ -15,6 +15,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
+<<<<<<< HEAD
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
@@ -47,5 +48,19 @@
     </nav>
       <body>
         <%= yield %>
+=======
+  <body>
+
+    <div class="container"> 
+      <ul class="nav nav-tabs">
+        <li><%= link_to "Home", welcome_index_path %></li>
+        <li><%= link_to "About Us", welcome_about_path %></li>
+        <li><%= link_to "Ways to Help", welcome_help_path %></li>
+        <li><%= link_to "Adoption", welcome_adoption_path %></li>
+        <li><%= link_to "Contact", welcome_contact_path %></li>
+      </ul> 
+      <%= yield %>
+    </div>
+>>>>>>> 3f0977eae05819042ed03f60fd3d83213b287aee
   </body>
   </html>

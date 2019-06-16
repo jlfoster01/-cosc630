@@ -1,24 +1,14 @@
-# README
+COSC 630
+========
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project about Animal Shelter
+----------------------------
 
-Things you may want to cover:
+### Welcome to the repository
 
-* Ruby version
+Feel free to access [my portfolio]().
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+>## Curabitur id ultrices odio, eget ornare sem.
+>
+>Integer consectetur, augue vitae dignissim rhoncus, enim velit sagittis nunc, et 
+>eleifend leo tortor eget est. 
