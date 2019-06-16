@@ -14,3 +14,16 @@
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
 }
+
+.gradient4
+{
+    background-color: #F36D8F;
+    /* For WebKit (Safari, Chrome, etc) */
+    background: #F36D8F -webkit-gradient(linear, left top, left bottom, from(#5A0016), to(#F36D8F)) no-repeat;
+    /* Mozilla,Firefox/Gecko */
+    background: #F36D8F -moz-linear-gradient(top, #5A0016, #F36D8F) no-repeat;
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#5A0016, endColorstr=#F36D8F) no-repeat;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#5A0016, endColorstr=#5A0016)" no-repeat;
+}
