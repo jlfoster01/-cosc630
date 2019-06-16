@@ -52,15 +52,11 @@ GEM
     bindex (0.7.0)
     bootsnap (1.4.4)
       msgpack (~> 1.0)
-<<<<<<< HEAD
+
     bootstrap (4.1.3)
       autoprefixer-rails (>= 6.0.3)
       popper_js (>= 1.12.9, < 2)
       sass (>= 3.5.2)
-=======
-    bootstrap-sass (2.3.1.3)
-      sass (~> 3.2)
->>>>>>> 3f0977eae05819042ed03f60fd3d83213b287aee
     builder (3.2.3)
     byebug (11.0.1)
     capybara (3.22.0)
